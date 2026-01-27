@@ -5,7 +5,7 @@ This project is the implementation of a simple RISC processor in Verilog, develo
 The repository also contains three diagnostic programs used to verify the processor's functionality. These tests range from basic instruction validation to running a complete algorithm to calculate the Fibonacci sequence.
 
 ## Architecture Overview
-!(img/schematic_top.png)
+![RISC Schematic](img/schematic_top.png)
 
 The processor is built from the following Verilog modules:
 
