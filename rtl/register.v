@@ -6,9 +6,9 @@ input load,clk,rst;
 always@(posedge clk)
 begin
 if(load)
-	data_out=data_in;
+	data_out<=data_in;
 if(rst)
-	data_out=8'b00000000;
+	data_out<=8'b00000000;
 else
  	data_out<=data_out;
 end
